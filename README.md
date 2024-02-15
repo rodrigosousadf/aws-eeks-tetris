@@ -1,2 +1,2 @@
 # aws-eeks-tetris
-oi
+we are going to deploy 2 version of tetris game on aws EKS ckuster for this we are using terraform to create a base instance called the jenkins server than from this intance we setup pipeline for two version of tetris , which build docker image and push it to dockerhub than setup eks cluster and argo cd inside the cluster to deploy our application
